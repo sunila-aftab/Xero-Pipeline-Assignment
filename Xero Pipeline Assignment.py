@@ -15,8 +15,8 @@ import os
 
 
 #Set parameters for XERO API use
-client_id = '3876B05658EC42E2B48E672D47544980'
-client_secret = 'qdwQEemGw5qf2RqQ6S9AJwT9xtI2XRh_VkiaxJZY62twsNZe'
+client_id = '[Enter_Client_ID]'
+client_secret = '[Enter_Client_Secret]'
 redirect_url = 'https://developer.xero.com/'
 scope = 'offline_access accounting.transactions accounting.contacts'
 b64_id_secret = base64.b64encode(bytes(client_id + ':' + client_secret, 'utf-8')).decode('utf-8')
